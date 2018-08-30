@@ -8,5 +8,11 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 move = gets.strip
 index = input_to_index(move)
-display_board
+display_board(board)
 play(board)
+
+
+#puts "Welcome to Tic Tac Toe!"
+#board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+#display_board(board)
+#play(board)
