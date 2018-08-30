@@ -5,8 +5,8 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 print "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board
 puts "Where would you like to go?"
 move = gets.strip
 index = input_to_index(move)
+display_board
 play(board)
