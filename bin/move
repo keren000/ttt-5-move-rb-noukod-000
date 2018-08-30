@@ -10,4 +10,3 @@ puts "Where would you like to go?"
 #index = input_to_index(move)
 display_board(board)
 play(board)
-
