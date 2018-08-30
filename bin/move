@@ -11,7 +11,8 @@ def turn(board)
 
   input = gets.strip
   index = input_to_index(input)
-    puts "Ok! #{input} Please enter 1-9:"
+
+  puts "Ok! #{input} Please enter 1-9:"
   #get the user input
   user_input = gets.strip
   #input to index
