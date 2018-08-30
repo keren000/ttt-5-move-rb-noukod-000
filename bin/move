@@ -26,3 +26,15 @@ index = input_to_index(input)
     end
   end
 end
+def play(arr)
+  until over?(arr)
+      turn(arr)
+    end
+
+  if won?(arr)
+    win_token = winner(arr)
+    puts "Congratulations #{win_token}!"
+  elsif draw?(arr)
+    puts "Cats Game!"
+  end
+end
